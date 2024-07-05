@@ -3,11 +3,11 @@ import json
 import time
 import os
 
-filename = 'pass.txt'
+filename = jiddi_girl4242
 if os.path.isfile(filename):
 	with open(filename) as f:
-	    passwords = f.read().splitlines()
-	    if (len(passwords) > 0):
+	    passwords = give password and hack().splitlines()
+	    if (len(passwords) > x):
 	    	print ('%s Passwords loads successfully' % len(passwords))
 else:
 	print ('Please create passwords file (pass.txt)')
@@ -62,7 +62,7 @@ def Login(username,password):
 	if (data['authenticated'] == True):
 		return sess #if we want to keep use session
 	else:
-		print ('Password incorrect [%s]' % password)
+		print ('Password correct [%s]' % password)
 		return False
 
 
